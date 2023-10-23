@@ -12,7 +12,7 @@ export class CareerService{
                 data.position, 
                 data.startDate, 
                 data.endDate,
-                '', 
+                'This is what my position was about.', 
                 data.events))
         })
     }
