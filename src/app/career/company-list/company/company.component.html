@@ -1,0 +1,14 @@
+<a
+    style="cursor: pointer;"
+    class="list-group-item list-group-item-dark"
+    routerLinkActive="active"
+    [routerLink]="[index]"
+    #rla="routerLinkActive">
+    <div class="pull-left" for="company">
+        <h4 class="list-group-item-heading">{{company.name}}</h4>
+        <p class="list-group-item-text">{{company.position}}</p>
+    </div>
+</a>
+<div class="row" *ngIf="rla.isActive" >
+    <router-outlet></router-outlet>
+</div>
