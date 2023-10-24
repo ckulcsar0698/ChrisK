@@ -1,58 +1,87 @@
-[
-    {
-        "company": "LINQ",
-        "position": "Software Engineering Manager",
-        "startDate": "08/2023",
-        "endDate": "Current",
-        "events": ["Test", "Test2"]
+{
+    "career": {
+        "companies": [
+            {
+                "company": "LINQ",
+                "position": "Software Engineering Manager",
+                "startDate": "08/2023",
+                "endDate": "Current",
+                "summary": "This is a summary of the position.",
+                "events": ["Test", "Test2"]
+            },
+            {
+                "company": "ConstructConnect",
+                "position": "Software Engineering Manager",
+                "startDate": "01/2022",
+                "endDate": "08/2023",
+                "summary": "This is a summary of the position.",
+                "events": ["Test3", "Test4"]
+            },
+            {
+                "company": "Rockwell Automation",
+                "position": "Sr. Software Engineer(Team Lead)",
+                "startDate": "08/2017",
+                "endDate": "12/2021",
+                "summary": "This is a summary of the position.",
+                "events": ["Test3", "Test4"]
+            },
+            {
+                "company": "Rockwell Automation",
+                "position": "Sr. Software Engineer",
+                "startDate": "08/2017",
+                "endDate": "12/2021",
+                "summary": "This is a summary of the position.",
+                "events": ["Test3", "Test4"]
+            },
+            {
+                "company": "Applied Vision",
+                "position": "Software Engineer",
+                "startDate": "04/2008",
+                "endDate": "08/2017",
+                "summary": "This is a summary of the position.",
+                "events": ["Test3", "Test4"]
+            },
+            {
+                "company": "Applied Vision",
+                "position": "Applications Engineer",
+                "startDate": "04/2008",
+                "endDate": "08/2017",
+                "summary": "This is a summary of the position.",
+                "events": ["Test3", "Test4"]
+            },
+            {
+                "company": "Applied Vision",
+                "position": "Project Engineer",
+                "startDate": "04/2008",
+                "endDate": "08/2017",
+                "summary": "This is a summary of the position.",
+                "events": ["Test3", "Test4"]
+            },
+            {
+                "company": "United States Navy",
+                "position": "Leading Petty Officer",
+                "startDate": "04/2008",
+                "endDate": "08/2017",
+                "summary": "This is a summary of the position.",
+                "events": ["Test3", "Test4"]
+            }
+        ]
     },
-    {
-        "company": "ConstructConnect",
-        "position": "Software Engineering Manager",
-        "startDate": "01/2022",
-        "endDate": "08/2023",
-        "events": ["Test3", "Test4"]
-    },
-    {
-        "company": "Rockwell Automation",
-        "position": "Sr. Software Engineer(Team Lead)",
-        "startDate": "08/2017",
-        "endDate": "12/2021",
-        "events": ["Test3", "Test4"]
-    },
-    {
-        "company": "Rockwell Automation",
-        "position": "Sr. Software Engineer",
-        "startDate": "08/2017",
-        "endDate": "12/2021",
-        "events": ["Test3", "Test4"]
-    },
-    {
-        "company": "Applied Vision",
-        "position": "Software Engineer",
-        "startDate": "04/2008",
-        "endDate": "08/2017",
-        "events": ["Test3", "Test4"]
-    },
-    {
-        "company": "Applied Vision",
-        "position": "Applications Engineer",
-        "startDate": "04/2008",
-        "endDate": "08/2017",
-        "events": ["Test3", "Test4"]
-    },
-    {
-        "company": "Applied Vision",
-        "position": "Project Engineer",
-        "startDate": "04/2008",
-        "endDate": "08/2017",
-        "events": ["Test3", "Test4"]
-    },
-    {
-        "company": "United States Navy",
-        "position": "Leading Petty Officer",
-        "startDate": "04/2008",
-        "endDate": "08/2017",
-        "events": ["Test3", "Test4"]
+
+    "education": {
+        "schools": [
+            {
+                "school": "University of Arkansas Grantham",
+                "degree": "Master of Science in Business Intelligence",
+                "gradYear": "2020",
+                "gpa": "4.0"
+            },
+            {
+                "school": "University of Arkansas Grantham",
+                "degree": "Bachelor of Science in Computer Science",
+                "gradYear": "2012",
+                "gpa": "3.66"
+            }
+        ]
     }
-]
+}
