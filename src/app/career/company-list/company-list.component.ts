@@ -8,7 +8,7 @@ import { CareerService } from '../career.service';
   styleUrls: ['./company-list.component.css']
 })
 export class CompanyListComponent implements OnInit {
-  companyList!: CompanyModel[];
+  companyList: CompanyModel[] = [];
 
   constructor(private careerService: CareerService) {}
 

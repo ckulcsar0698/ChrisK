@@ -14,6 +14,8 @@ import { CompanyListComponent } from './career/company-list/company-list.compone
 import { CompanyComponent } from './career/company-list/company/company.component';
 import { CompanyDetailsComponent } from './career/company-details/company-details.component';
 import { BulletPointComponent } from './career/company-details/bullet-point/bullet-point.component';
+import { SchoolListComponent } from './education/school-list/school-list.component';
+import { SchoolComponent } from './education/school-list/school/school.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { BulletPointComponent } from './career/company-details/bullet-point/bull
     CompanyListComponent,
     CompanyComponent,
     CompanyDetailsComponent,
-    BulletPointComponent
+    BulletPointComponent,
+    SchoolListComponent,
+    SchoolComponent
   ],
   imports: [
     BrowserModule,
